@@ -1,0 +1,45 @@
+extends layouts/default
+
+block vars
+  - var theme = 'simple'
+
+block main
+  table.container.main-wrap
+    tr
+      td
+        table.row
+          tr
+            td.wrapper.last
+              table.twelve.columns
+                tr
+                  td.text-pad
+                    p  Please click the link below to confirm your email address.
+                  td.expander
+        table.row
+          tr
+            td.wrapper.last
+              table.five.columns
+                tr
+                  td.left-text-pad
+                    table.tiny-button.radius
+                      tr
+                        td
+                          a(href="#") Confirm Email Address
+                  td.expander
+                tr
+                  td.text-pad
+                    p - Acme
+
+    table.container
+      tr
+        td
+          table.row
+            tr
+              td.wrapper.last
+                table.twelve.columns
+                  tr
+                    td.center
+                      center
+                        |Follow 
+                        a(href="http://twitter.com/ka2n") ka2n
+                        |  on Twitter

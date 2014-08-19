@@ -1,0 +1,16 @@
+{
+  "name": "gulp-email-design",
+  "version": "0.0.1",
+  "description": "HTML Email design workflow with gulp",
+  "author": "Katsuma Ito",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.8.7",
+    "gulp-inline-css": "^0.2.7",
+    "gulp-jade": "^0.7.0",
+    "gulp-plumber": "^0.6.4",
+    "gulp-premailer": "^0.3.0",
+    "gulp-sass": "^0.7.3",
+    "gulp-watch": "^0.6.9"
+  }
+}

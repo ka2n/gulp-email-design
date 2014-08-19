@@ -1,0 +1,18 @@
+doctype transitional
+html
+  block vars
+    - var theme = 'default'
+  block head
+    head
+      meta(name='viewport' content='width=device-width')
+      meta(http-equiv='Content-type' content='text/html; charset=UTF-8')
+      title
+        block title
+          | Email
+      link(href='main.css' media='all' rel='stylesheet' type='text/css')
+  body(class="theme-html-#{theme}")
+    table.body(class="theme-#{theme}")
+      tr
+        td.center(align='center' valign='top')
+          center
+            block main
